@@ -74,12 +74,12 @@ window will apear to notify user of the end of program.
 
     you need to modify the path to `icon.png` in `work_timer.desktop`:
 
-       $ nano work_timer.desktop
+        $ nano work_timer.desktop
 
-       Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa/termina_work_timer/icon.png
+        Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa/termina_work_timer/icon.png
 
   - Copy `work_timer.desktop` to `/usr/share/applications`, so that it can be launched from applications menu
 
-       $ sudo cp work_timer.desktop /usr/share/applications
+        $ sudo cp work_timer.desktop /usr/share/applications
 
   - Now, you can either open it from terminal or applications menu
