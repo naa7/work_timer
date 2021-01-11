@@ -21,36 +21,36 @@ to notify user of the end of program.
 
  Clone the repository:
   
-  $ cd && git clone https://github.com/naa-7/terminal_work_timer.git
+   $ cd && git clone https://github.com/naa-7/terminal_work_timer.git
 
  One, The program will run in the current terminal window
 
   1) Change Directory to `terminal_work_timer`. Example:
 
-     $ cd && cd terminal_work_timer/
+    $ cd && cd terminal_work_timer/
 
   2) Make the program executable:
     
-     $ chmod +x work_timer
+    $ chmod +x work_timer
 
   3) Run the program:
  
-     $ ./work_timer 
+    $ ./work_timer 
 
 
  Second, The program will run in a new window which will close after the program ends:
    
   1) Change Directory to `terminal_work_timer`. Example:
 
-     $ cd && cd terminal_work_timer/
+    $ cd && cd terminal_work_timer/
 
   2) Make the program & launcher executable:
 
-     $ chmod +x work_timer launcher.sh
+    $ chmod +x work_timer launcher.sh
 
   3) Run `launcher.sh`:
 
-     $ ./launcher.sh 
+    $ ./launcher.sh 
 
 
 ## Optional
@@ -61,16 +61,16 @@ to notify user of the end of program.
 
   - copying the file without renaming:
 	
-     $ sudo cp launcher.sh /usr/bin/local/
+    $ sudo cp launcher.sh /usr/bin/local/
 
   - renaming and copying the file. Example, I renamed it as `timer`:
 
-     $ mv laucher.sh timer
+    $ mv laucher.sh timer
 
-     $ sudo cp timer /usr/local/bin/
+    $ sudo cp timer /usr/local/bin/
 
   - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
 
-     $ laucher.sh   # if it was not renamed
+    $ laucher.sh   # if it was not renamed
 
-     $ timer        # if it was renamed
+    $ timer        # if it was renamed
