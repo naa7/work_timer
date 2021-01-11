@@ -16,6 +16,7 @@ terminal window will close. In both ways, Once the timer stops, a 2 second alert
 to notify user of the end of program.
 
 
+
 ## There are two ways to run the program
 
  Clone the repository:
