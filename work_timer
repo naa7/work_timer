@@ -118,7 +118,7 @@ echo -e "\033[37;44;1;82m####################\033[0m"
 echo -e "\033[37;44;1;82m###  Time is up  ###\033[0m"
 echo -e "\033[37;44;1;82m####################\033[0m"
 
-zenity --notification --text="Work Time Finished" && aplay alarm.wav >/dev/null 2>&1
+zenity --notification --text="Work Time Finished" && aplay ~/terminal_work_timer/alarm.wav >/dev/null 2>&1
 zenity --warning --title="Work Timer" --icon-name="notification" --ellipsize --text="Work Time Finished"
 
 sleep 1
