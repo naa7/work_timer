@@ -8,13 +8,15 @@ The idea of this project is to build a terminal based work timer. The program us
 
 to start counting down. The user can enter hours and minutes, hours without minutes, or minutes without hours since it 
 
-accepts hours and minutes. There are two ways to start the timer. First, the program will run the current terminal window
+accepts hours and minutes. There are two ways to start the timer. First, the program will run the current terminal 
 
-and when the program ends, the output will be removes. Second, the program will run in a new window of a set size (20x10)
+window and when the program ends, the output will be removes. Second, the program will run in a new window of 
 
-to save screen space for other tasks and once program ends the timer terminal window will close. In both ways, Once the 
+a set size (20x10) to save screen space for other tasks and once program ends the timer terminal window will close.
 
-timer stops, a 2 second alert will start and a notification pop up window will apear to notify user of the end of program.
+In both ways, Once the timer stops, a 2 second alert will start and a notification pop up window will apear to notify
+
+ user of the end of program.
 
 
 
