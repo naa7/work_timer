@@ -74,6 +74,6 @@ window will apear to notify user of the end of program.
 
   - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
 
-    $ laucher.sh   # if it was not renamed
+           $ laucher.sh   # if it was not renamed
 
-    $ timer        # if it was renamed
+           $ timer        # if it was renamed
