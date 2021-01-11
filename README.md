@@ -57,7 +57,7 @@ to notify user of the end of program.
 
  For easier use of the timer without the need to navigate to its directory and selecting file if running using the method two, a user can 
 
- copy it to `/usr/local/bin/`
+ copy `launcher.sh` to `/usr/local/bin/`
 
   - copying the file without renaming:
 	
