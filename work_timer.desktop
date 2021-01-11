@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=timer
-StartupWMClass=timer
-Comment=Terminal timer
-Exec=/usr/bin/timer
+Name=Work Timer
+StartupWMClass=Work Timer
+Comment=Terminal Based Timer
+Exec=/usr/bin/work_timer
 Icon=/home/naa/terminal_work_timer/icon.png
 Type=Application
 Categories=Utility;

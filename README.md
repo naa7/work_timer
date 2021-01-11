@@ -34,11 +34,11 @@ window will apear to notify user of the end of program.
 
   2) Make the program executable:
     
-    $ chmod +x work_timer
+    $ chmod +x terminal_work_timer
 
   3) Run the program:
  
-    $ ./work_timer 
+    $ ./terminal_work_timer 
 
 
  Second, The program will run in a new window which will close after the program ends:
@@ -49,11 +49,11 @@ window will apear to notify user of the end of program.
 
   2) Make the program & launcher executable:
 
-    $ chmod +x work_timer launcher.sh
+    $ chmod +x terminal_work_timer work_timer
 
   3) Run `launcher.sh`:
 
-    $ ./launcher.sh 
+    $ ./work_timer 
 
 
 ## Optional
@@ -64,19 +64,11 @@ window will apear to notify user of the end of program.
 
   - Method one, copy the file without renaming:
 	
-        $ sudo cp launcher.sh /usr/bin/
+        $ sudo cp work_timer /usr/bin/
 
-  - Method two, rename and copying the file. Example, I renamed it as `timer`:
+  - Now the progam can be run from anywhere in the terminal, just run:
 
-        $ mv laucher.sh timer
-
-        $ sudo cp timer /usr/bin/
-
-  - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
-
-        $ laucher.sh   # if it was not renamed
-
-        $ timer        # if it was renamed
+        $ work_timer
 
   - Optional,if you want to be able to open program both from terminal and applications menu, 
 
@@ -84,7 +76,7 @@ window will apear to notify user of the end of program.
 
        $ nano work_timer.desktop
 
-       Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa-7/termina_work_timer/icon.png
+       Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa/termina_work_timer/icon.png
 
   - Copy `work_timer.desktop` to `/usr/share/applications`, so that it can be launched from applications menu
 
