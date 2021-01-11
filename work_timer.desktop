@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=timer
+StartupWMClass=timer
+Comment=Terminal timer
+Exec=/usr/bin/timer
+Icon=/home/naa/terminal_work_timer/icon.png
+Type=Application
+Categories=Utility;
+Path=/usr/bin
+Path=/usr/bin
+

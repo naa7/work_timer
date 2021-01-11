@@ -60,20 +60,34 @@ window will apear to notify user of the end of program.
 
  For easier use of the timer without the need to navigate to its directory and selecting file if running using method two,
 
- a user can copy `launcher.sh` to `/usr/local/bin/`
+ a user can copy `launcher.sh` to `/usr/bin/`
 
-  - copying the file without renaming:
+  - Method one, copy the file without renaming:
 	
-        $ sudo cp launcher.sh /usr/bin/local/
+        $ sudo cp launcher.sh /usr/bin/
 
-  - renaming and copying the file. Example, I renamed it as `timer`:
+  - Method two, rename and copying the file. Example, I renamed it as `timer`:
 
         $ mv laucher.sh timer
 
-        $ sudo cp timer /usr/local/bin/
+        $ sudo cp timer /usr/bin/
 
   - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
 
         $ laucher.sh   # if it was not renamed
 
         $ timer        # if it was renamed
+
+  - Optional,if you want to be able to open program both from terminal and applications menu, 
+
+    you need to modify the path to `icon.png` in `work_timer.desktop`:
+
+       $ nano work_timer.desktop
+
+       Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa-7/termina_work_timer/icon.png
+
+  - Copy `work_timer.desktop` to `/usr/share/applications`, so that it can be launched from applications menu
+
+       $ sudo cp work_timer.desktop /usr/share/applications
+
+  - Now, you can either open it from terminal or applications menu
