@@ -21,7 +21,7 @@ to notify user of the end of program.
 
  Clone the repository:
   
-   $ cd && git clone https://github.com/naa-7/terminal_work_timer.git
+  $ cd && git clone https://github.com/naa-7/terminal_work_timer.git
 
  One, The program will run in the current terminal window
 
