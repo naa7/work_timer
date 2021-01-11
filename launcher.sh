@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Comment out line 5 and uncomment line 4 if there are problems with the alarm sound
+
 #DIR=$(zenity --file-selection)
-DIR="~/terminal_work_timer"
-xfce4-terminal --geometry=20x10 --hide-scrollbar --hide-menubar --title="Work Timer" -e "sh -c $DIR/work_timer"
+DIR='~/terminal_work_timer'
+cd $DIR & xfce4-terminal --geometry=20x10 --hide-scrollbar --hide-menubar --title="Work Timer" -e "sh -c $DIR/work_timer"
