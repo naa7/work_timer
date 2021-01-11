@@ -55,22 +55,22 @@ to notify user of the end of program.
 
 ## Optional
 
- For easier use of the timer without the need to navigate to its directory and selecting file if running using the method two, a user can 
+ For easier use of the timer without the need to navigate to its directory and selecting file if running using method two,
 
- copy `launcher.sh` to `/usr/local/bin/`
+ a user can copy `launcher.sh` to `/usr/local/bin/`
 
-   - copying the file without renaming:
+  - copying the file without renaming:
 	
-     $ sudo cp launcher.sh /usr/bin/local/
+    $ sudo cp launcher.sh /usr/bin/local/
 
-   - renaming and copying the file. Example, I renamed it as `timer`:
+  - renaming and copying the file. Example, I renamed it as `timer`:
 
-     $ mv laucher.sh timer
+    $ mv laucher.sh timer
 
-     $ sudo cp timer /usr/local/bin/
+    $ sudo cp timer /usr/local/bin/
 
-   - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
+  - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
 
-     $ laucher.sh   # if it was not renamed
+    $ laucher.sh   # if it was not renamed
 
-     $ timer        # if it was renamed
+    $ timer        # if it was renamed
