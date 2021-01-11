@@ -64,16 +64,16 @@ window will apear to notify user of the end of program.
 
   - copying the file without renaming:
 	
-    $ sudo cp launcher.sh /usr/bin/local/
+        $ sudo cp launcher.sh /usr/bin/local/
 
   - renaming and copying the file. Example, I renamed it as `timer`:
 
-    $ mv laucher.sh timer
+        $ mv laucher.sh timer
 
-    $ sudo cp timer /usr/local/bin/
+        $ sudo cp timer /usr/local/bin/
 
   - Now the progam can be run from anywhere in the terminal, just open a terminal and run:
 
-           $ laucher.sh   # if it was not renamed
+        $ laucher.sh   # if it was not renamed
 
-           $ timer        # if it was renamed
+        $ timer        # if it was renamed
