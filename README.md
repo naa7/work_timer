@@ -1,7 +1,7 @@
-# work_timer
+# terminal_work_timer
 
-![work_timer1](https://github.com/naa-7/bash_projects/blob/main/work_timer/timer_1.gif)
-![work_timer2](https://github.com/naa-7/bash_projects/blob/main/work_timer/timer_2.gif)
+![terminal_work_timer1](https://github.com/naa-7/bash_projects/blob/main/work_timer/timer_1.gif)
+![terminal_work_timer2](https://github.com/naa-7/bash_projects/blob/main/work_timer/timer_2.gif)
 
 The idea of this project is to build a terminal based work timer. The program uses zenity to ask a user for required time to start counting down. 
 
@@ -18,11 +18,15 @@ to notify user of the end of program.
 
 ## There are two ways to run the program
 
+ Clone the repository:
+  
+  $ git clone https://github.com/naa-7/terminal_work_timer.git
+
  One, The program will run in the current terminal window
 
-   1) Change Directory to `work_timer`. Example:
+   1) Change Directory to `terminal_work_timer`. Example:
 
-     $ cd github/work_timer/
+     $ cd && cd terminal_work_timer/
 
    2) Make the program executable:
     
@@ -35,9 +39,9 @@ to notify user of the end of program.
 
 Second, The program will run in a new window which will close after the program ends:
    
-   1) Change Directory to `work_timer`. Example:
+   1) Change Directory to `terminal_work_timer`. Example:
 
-     $ cd github/work_timer/
+     $ cd && cd terminal_work_timer/
 
    2) Make the program & launcher executable:
 
@@ -54,9 +58,9 @@ Second, The program will run in a new window which will close after the program 
 
  modify the of program's directory in `launcher.sh` and then copy it to `/usr/local/bin/`
 
-  1) Change Directory to `work_timer`. Example:
+  1) Change Directory to `terminal_work_timer`. Example:
 
-    $ cd github/work_timer/
+    $ cd && cd terminal_work_timer/
 
   2) Make the program & launcher executable:
 
@@ -66,7 +70,7 @@ Second, The program will run in a new window which will close after the program 
      
     $ nano launcher.sh
 
-  4) Modify `launcher.sh` file. Optional, also modify `work_timer` file to ensure the alarm sound works universally:
+  4) Modify `launcher.sh` file:
 
     - Comment out `DIR=$(zenity --file-selection)`
      
@@ -76,11 +80,7 @@ Second, The program will run in a new window which will close after the program 
 
        Example:
        
-        DIR="/home/naa-7/github/work_timer/"
-
-    - Optional, in `work_timer`, go to 'aplay alarm.wav` on line `121`  and add path to the program before `alarm.wav`. Example:
-  
-       `aplay ~/github/work_timer/alarm.wav`
+        DIR="~/terminal_work_timer/"
 
   5) Save the modified file and copy it to `/usr/local/bin`. Optional, `launcher.sh` can be renamed before copying it:
 
@@ -100,3 +100,4 @@ Second, The program will run in a new window which will close after the program 
 
     $ timer        # if it was renamed
 
+    
