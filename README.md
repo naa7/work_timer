@@ -76,7 +76,7 @@ window will apear to notify user of the end of program.
 
         $ nano work_timer.desktop
 
-        Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa/termina_work_timer/icon.png
+        Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa/terminal_work_timer/icon.png
 
   - Copy `work_timer.desktop` to `/usr/share/applications`, so that it can be launched from applications menu
 
