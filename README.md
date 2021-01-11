@@ -100,5 +100,3 @@ Second, The program will run in a new window which will close after the program 
 
     $ timer        # if it was renamed
 
-    
-# terminal_work_timer
