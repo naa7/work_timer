@@ -5,7 +5,6 @@ sudo cp work_timer /usr/bin/
 
 # Modify the path to `icon.png` in work_timer_desktop
 path=$PWD
-echo $path
 echo "Icon=$path/icon.png" >> work_timer.desktop
 
 # Copy `work_timer.desktop` to `/usr/share/applications/`
