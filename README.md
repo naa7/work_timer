@@ -61,4 +61,9 @@ run `install.sh`
    
     $ ./install.sh
 
-Now, you can either open it from terminal or applications menu
+Now, you can either open it from terminal
+
+    $ work_timer
+
+Or, open it from applications menu
+
