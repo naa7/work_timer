@@ -5,18 +5,12 @@
 ![work_timer1](https://github.com/naa-7/terminal_work_timer/blob/main/timer_1.gif?style=centerme)
 ![work_timer2](https://github.com/naa-7/terminal_work_timer/blob/main/timer_2.gif?style=centerme)
 
-The idea of this project is to build a terminal based work timer. It uses zenity to ask a user for the required
-
-time to start counting down. The user can either enter hours and minutes, hours without minutes, or minutes
-
+The idea of this project is to build a terminal based work timer. It uses zenity to ask a user for the required 
+time to start counting down. The user can either enter hours and minutes, hours without minutes, or minutes 
 without hours, it accepts all. There are two ways to start the timer. First, the program will run in the 
-
 current terminal window and when it ends, the output will be removed. Second, the program will run in a new 
-
 window of a set size (20x10) to save screen space for other tasks and once program ends, the timer terminal 
-
 window will close. In both ways, Once the timer stops, a 2 second alert will start and a notification pop up 
-
 window will apear to notify user of the end of program.
 
 
