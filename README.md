@@ -27,7 +27,7 @@ window will apear to notify user of the end of program.
   
     $ cd && git clone https://github.com/naa-7/terminal_work_timer.git
 
- ### Choice #1, The program will run in the current terminal window
+ #### Choice 1, The program will run in the current terminal window
 
   1) Change Directory to `terminal_work_timer`. Example:
 
@@ -42,7 +42,7 @@ window will apear to notify user of the end of program.
     $ ./terminal_work_timer 
 
 
- ### Choice #2, The program will run in a new window which will close after the program ends:
+ #### Choice 2, The program will run in a new window which will close after the program ends:
    
   1) Change Directory to `terminal_work_timer`. Example:
 
