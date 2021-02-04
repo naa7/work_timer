@@ -1,6 +1,6 @@
 # terminal_work_timer
 
-![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/naa-7/picoCTF?style=social"> <img src="https://img.shields.io/github/repo-size/naa-7/picoCTF"> [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/naa-7/terminal_work_timer/LICENSE)
+![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/naa-7/terminal_work_timer?style=social"> <img src="https://img.shields.io/github/repo-size/naa-7/terminal_work_timer"> [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/naa-7/terminal_work_timer/LICENSE)
 
 ![work_timer1](https://github.com/naa-7/terminal_work_timer/blob/main/timer_1.gif?style=centerme)
 ![work_timer2](https://github.com/naa-7/terminal_work_timer/blob/main/timer_2.gif?style=centerme)
