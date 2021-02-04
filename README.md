@@ -7,9 +7,9 @@
 
 The idea of this project is to build a terminal based work timer. It uses zenity to ask a user for the required
 
-time to start counting down. The user can enter hours and minutes, hours without minutes, or minutes without hours 
+time to start counting down. The user can either enter hours and minutes, hours without minutes, or minutes
 
-, it accepts hours, minutes, or both. There are two ways to start the timer. First, the program will run in the 
+without hours, it accepts all. There are two ways to start the timer. First, the program will run in the 
 
 current terminal window and when it ends, the output will be removed. Second, the program will run in a new 
 
