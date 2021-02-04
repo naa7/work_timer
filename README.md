@@ -52,7 +52,7 @@ window will apear to notify user of the end of program.
 
     $ chmod +x terminal_work_timer work_timer
 
-  3) Run `launcher.sh`:
+  3) Run `work_timer`:
 
     $ ./work_timer 
 
@@ -61,7 +61,7 @@ window will apear to notify user of the end of program.
 
  For easier use of the timer without the need to navigate to its directory and selecting file if running using method two,
 
- a user can copy `launcher.sh` to `/usr/bin/`
+ a user can copy `work_timer` to `/usr/bin/`
 
   - Method one, copy the file without renaming:
 	
