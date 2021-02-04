@@ -59,28 +59,11 @@ window will apear to notify user of the end of program.
 
 ## Optional
 
- For easier use of the timer without the need to navigate to its directory and selecting file if running using method two,
+For easier use of the timer without the need to navigate to its directory and running the file,
 
- a user can copy `work_timer` to `/usr/bin/`
+run `install.sh`
 
-  - Method one, copy the file without renaming:
-	
-        $ sudo cp work_timer /usr/bin/
-
-  - Now the progam can be run from anywhere in the terminal, just run:
-
-        $ work_timer
-
-  - Optional,if you want to be able to open program both from terminal and applications menu, 
-
-    you need to modify the path to `icon.png` in `work_timer.desktop`:
-
-        $ nano work_timer.desktop
-
-        Icon=/"Enter your path to program file"/icon.png  # Example: Icon=/home/naa/terminal_work_timer/icon.png
-
-  - Copy `work_timer.desktop` to `/usr/share/applications`, so that it can be launched from applications menu
-
-        $ sudo cp work_timer.desktop /usr/share/applications
+   $ chmod +x install.sh
+   $ ./install.sh
 
   - Now, you can either open it from terminal or applications menu
