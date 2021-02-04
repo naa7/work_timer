@@ -63,7 +63,8 @@ For easier use of the timer without the need to navigate to its directory and ru
 
 run `install.sh`
 
-   $ chmod +x install.sh
-   $ ./install.sh
+    $ chmod +x install.sh
+   
+    $ ./install.sh
 
-  - Now, you can either open it from terminal or applications menu
+Now, you can either open it from terminal or applications menu
