@@ -53,7 +53,7 @@ window will apear to notify user of the end of program.
 
 ## Optional
 
-For easier use of the timer without the need to navigate to its directory and running the file,
+For easier use of the timer without the need to navigate to its directory and run the file,
 
 run `install.sh`
 
