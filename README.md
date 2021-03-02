@@ -27,13 +27,9 @@ window will apear to notify user of the end of program.
 
     $ cd && cd terminal_work_timer/
 
-  2) Make the program executable:
-    
-    $ chmod +x terminal_work_timer
-
-  3) Run the program:
+  2) Run the program:
  
-    $ ./terminal_work_timer 
+    $ sh terminal_work_timer 
 
 
  #### Choice 2, The program will run in a new window which will close after the program ends:
@@ -56,10 +52,8 @@ window will apear to notify user of the end of program.
 For easier use of the timer without the need to navigate to its directory and run the file,
 
 run `install.sh`
-
-    $ chmod +x install.sh
    
-    $ ./install.sh
+    $ sh install.sh
 
 Now, you can either open it from terminal
 
