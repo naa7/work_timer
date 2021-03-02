@@ -63,5 +63,5 @@ Or, open it from applications menu
 
 To uninstall, run:
 
-     $ sh uninstall.sh
+    $ sh uninstall.sh
 
