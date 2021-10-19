@@ -1,9 +1,9 @@
 # work_timer
 
-![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/naa-7/work_timer?style=social"> <img src="https://img.shields.io/github/repo-size/naa-7/work_timer"> [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/naa-7/work_timer/LICENSE)
+![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"> <img src="https://img.shields.io/github/stars/naa7/work_timer?style=social"> <img src="https://img.shields.io/github/repo-size/naa7/work_timer"> [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/naa7/work_timer/LICENSE)
 
-![work_timer1](https://github.com/naa-7/work_timer/blob/main/timer_1.gif?style=centerme)
-![work_timer2](https://github.com/naa-7/work_timer/blob/main/timer_2.gif?style=centerme)
+![work_timer1](https://github.com/naa7/work_timer/blob/main/timer_1.gif?style=centerme)
+![work_timer2](https://github.com/naa7/work_timer/blob/main/timer_2.gif?style=centerme)
 
 The idea of this project is to build a terminal based work timer. It uses zenity to ask a user for the required 
 time to start counting down. The user can either enter hours and minutes, hours without minutes, or minutes 
@@ -19,7 +19,7 @@ window will apear to notify user of the end of program.
 
  Clone the repository:
   
-    $ cd && git clone https://github.com/naa-7/work_timer.git
+    $ cd && git clone https://github.com/naa7/work_timer.git
 
  #### Choice 1, The program will run in the current terminal window
 
