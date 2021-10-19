@@ -33,7 +33,7 @@ then
 			exit 1
 
 		fi
-		cd $DIR & xfce4-terminal --geometry=20x10 --hide-scrollbar --hide-menubar --title="Work Timer" -e "sh -c $DIR/work_timer"
+		cd $DIR & xfce4-terminal --geometry=20x10 --hide-scrollbar --hide-menubar --title="Work Timer" -e "sh -c $DIR/workTimer"
 	else
 		echo "xfce4-terminal is dependency for the program to work, Program Exit!"
 		echo "--- Unsuccessful ---"
@@ -41,5 +41,5 @@ then
 		exit 1
 	fi
 else
-	cd $DIR & xfce4-terminal --geometry=20x11 --hide-scrollbar --hide-menubar --title="Work Timer" -e "sh -c $DIR/work_timer"
+	cd $DIR & xfce4-terminal --geometry=20x11 --hide-scrollbar --hide-menubar --title="Work Timer" -e "sh -c $DIR/workTimer"
 fi
