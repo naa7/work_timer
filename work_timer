@@ -6,7 +6,7 @@
 # Comment out line 5 and uncomment line 4 if there are problems with the alarm sound
 
 #DIR=$(zenity --file-selection)
-DIR=~/work_timer
+DIR=$PWD
 
 if ! (dpkg -s xfce4-terminal >/dev/null 2>&1) && ! (rpm -q xfce4-terminal >/dev/null 2>&1) && ! (yum list installed xfce4-terminal >/dev/null 2>&1) && ! (dnf list installed xfce4-terminal >/dev/null 2>&1) && ! (which hub >/dev/null 2>&1)
 then
